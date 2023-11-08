@@ -25,7 +25,7 @@ const Products = ({ title, params, link }) => {
       <h2 className="text-2xl font-medium mt-16" id={link}>
         {title}
       </h2>
-      <div className="mt-6 grid grid-cols-1 md:grid-cols-3 md:gap-x-8 xl:grid-cols-4 gap-y-10 xl:gap-y-8 xl:gap-x-8">
+      <div className="my-6 grid grid-cols-1 md:grid-cols-3 md:gap-x-8 xl:grid-cols-4 gap-y-10 xl:gap-y-8 xl:gap-x-8">
         {products.length > 0 ? (
           products.map((item, index) => (
             <Link
