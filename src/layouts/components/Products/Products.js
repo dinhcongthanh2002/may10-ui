@@ -22,7 +22,7 @@ const Products = ({ title, params, link }) => {
   }, []);
   return (
     <div className="mx-4 xl:mx-80 xl:my-10">
-      <h2 className="text-2xl font-medium mt-16" id={link}>
+      <h2 className="text-2xl font-medium mt-16 cursor-pointer" id={link}>
         {title}
       </h2>
       <div className="my-6 grid grid-cols-1 md:grid-cols-3 md:gap-x-8 xl:grid-cols-4 gap-y-10 xl:gap-y-8 xl:gap-x-8">

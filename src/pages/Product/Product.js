@@ -10,23 +10,7 @@ const Product = () => {
   const { addToCart } = useContext(CartContext);
   const { id } = useParams();
   const [product, setProduct] = useState([]);
-  // const [cart, setCart] = useState([]);
-  // const handleAddCart = (products) => {
-  //   // Kiểm tra xem mục đã tồn tại trong giỏ hàng chưa
-  //   const cartItem = cart.findIndex((item) => item.id === products.id);
-  //   if (cartItem !== -1) {
-  //     // Nếu mục đã tồn tại, tăng số lượng của nó
-  //     const updatedCart = [...cart];
-  //     updatedCart[cartItem].quantity += 1;
-  //     setCart(updatedCart);
-  //   } else {
-  //     // Nếu mục chưa tồn tại, thêm một mục mới với số lượng là 1
-  //     setCart([...cart, { ...products, quantity: 1 }]);
-  //   }
-  // };
-  // console.log(cart);
-  //   const countValue = data.rating.map((result) => result.count);
-  //   console.log(data.rating.map((result) => result.count));
+
   useEffect(() => {
     async function getProducts() {
       try {

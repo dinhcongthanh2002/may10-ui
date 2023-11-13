@@ -3,7 +3,8 @@ import React from "react";
 import HeroSection from "../../layouts/components/HeroSection/HeroSection";
 import Products from "../../layouts/components/Products/Products";
 import MarqueeDesc from "../../layouts/components/MarqueeDesc/MarqueeDesc";
-import FloatingContact from "../../layouts/components/FloatingContact/FloatingContact";
+import FacebookMsg from "../../layouts/components/FacebookMsg/FacebookMsg";
+// import FloatingContact from "../../layouts/components/FloatingContact/FloatingContact";
 const Home = () => {
   return (
     <div>
@@ -20,7 +21,8 @@ const Home = () => {
       />
       <Products title="Jewelery" params="jewelery" link="jewelery" />
       <Products title="Electronics" params="electronics" link="electronics" />
-      {/* <FloatingContact /> */}
+      {/* Facebook Chat Plugin */}
+      <FacebookMsg />
     </div>
   );
 };
