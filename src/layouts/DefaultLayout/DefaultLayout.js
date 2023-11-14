@@ -8,8 +8,8 @@ const DefaultLayout = ({ children }) => {
     <div>
       <Header />
       <div>{children}</div>
-      <Footer/>
-      <SideBar/>
+      <Footer />
+      <SideBar />
     </div>
   );
 };
