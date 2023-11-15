@@ -16,4 +16,15 @@
     // background-color: #fff;
     // color: #111;
   }
+
+  .form input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
 }

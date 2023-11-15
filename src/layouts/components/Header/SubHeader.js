@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
+
 const SubHeader = () => {
   return (
     <div className="h-9 w-full bg-primary px-4 xl:px-80 flex justify-between items-center leading-9 text-xs font-semibold">
@@ -27,7 +29,7 @@ const SubHeader = () => {
         <span className="mx-1 xl:mx-2 font-semibold text-sm">|</span>
         {/* item 4 */}
         <div className="hover:opacity-60 cursor-pointer">
-          <a href="/">Sign In</a>
+          <Link to="/login">Sign In</Link>
         </div>
       </div>
     </div>

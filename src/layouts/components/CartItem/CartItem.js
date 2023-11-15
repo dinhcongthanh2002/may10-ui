@@ -25,7 +25,7 @@ const CartItem = ({ item }) => {
           <div className="flex items-center justify-between">
             <Link
               to={`/product/${item.id}`}
-              className="xl:max-w-[300px] font-semibold xl:text-sm uppercase"
+              className="md:max-w-[150px] xl:max-w-[300px] font-semibold md:text-sm xl:text-sm uppercase"
             >
               {item.title}
             </Link>

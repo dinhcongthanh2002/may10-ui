@@ -16,6 +16,10 @@ module.exports = {
           "100%": { transform: "translateX(-100%)" },
         },
       },
+      boxShadow: {
+        login:
+          "0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);",
+      },
     },
     fontFamily: {
       lobster: ["Lobster", "sans-serif"],
